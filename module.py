@@ -10,3 +10,19 @@ Type of Moudle is Python
 import platform
 n = platform.system()
 print(n)
+
+# example of custome module useage
+print("\nExample of custom module usage")
+import customModule
+customModule.greet("Oluwajuwon")
+
+# custom module alias example
+print("\nExample of custom module alias usage")
+import customModule as cm
+print(cm.greet("Oluwakemi"))
+print(cm.person["height"])
+
+# Using dir() function to get all the variable and function in a module
+import customModule
+g = dir(customModule)
+print(g)
