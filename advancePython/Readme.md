@@ -22,4 +22,32 @@ These are nested/inner functions that are enclosed within thr outer function. th
 
 Decorator
 A decorator is  design pattern in python that allows us to add a new functionality to an existing function without modifying it's structure. it act as a wrapper
+
+Python classes
+One of the popular approaches of prgramming is by creating object, E as much as possible. this is also known as DRY(Don't Repaet Yourself)
+A class is like a blueprint for creating object in python
+An Object is an instantiation of a class. it is a collection of variable and functions that act on the provided data defined in the class. NOTE: whenever an object calls its method, the object itself passed as the first arguement
+
+The self Parameter
+The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+It does not have to be named self , you can call it whatever you like, but it has to be the first parameter of any function in the class:
+
+The pass Statement
+class definitions cannot be empty, but if you for some reason have a class definition with no content, put in the pass statement to avoid getting an error.
+
+class Person:
+  pass
+
+Constructors in Python
+class functions that begin with double underscore __ are special functions, out of which thae most used one is __init__() function. All classes that have a function call __init__(), which is always executed when the class is being initiated are called Constructor function.
+Note: The __init__() function is called automatically every time the class is being used to create a new object.
+
+Class Inheritance
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
+
+Super Function
+The super() function in python allow the child class to inherit all the method and properties from the parent. there will be no need to use the name of the parent, it will automatically inherit the methof and properties from the parent
+
 """

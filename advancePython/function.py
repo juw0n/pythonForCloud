@@ -54,3 +54,17 @@ def hello(q):
 
 printHelloFirst = hello("Araoluwa")
 printHelloFirst()
+
+# Decorators
+def formatGreet(arg):
+    def innerFunc(k):
+        print("************")
+        arg(k)
+        print("=============")
+    return innerFunc
+
+def firstName(arg):
+    print("Hello ", arg)
+
+lookGood = formatGreet(firstName)
+lookGood("Ariel Araoluwa")
