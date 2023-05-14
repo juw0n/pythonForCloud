@@ -50,4 +50,10 @@ Child class is the class that inherits from another class, also called derived c
 Super Function
 The super() function in python allow the child class to inherit all the method and properties from the parent. there will be no need to use the name of the parent, it will automatically inherit the methof and properties from the parent
 
+Multiple Inheritance
+If a class derived from more thank one base/parent class, that clsaa is called multiple inheritance
+
+Multiple Level Inheritance
+In python a class can inherit from a derived class, it's called multi-level inheritance.
+
 """
