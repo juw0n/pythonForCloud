@@ -56,4 +56,10 @@ If a class derived from more thank one base/parent class, that clsaa is called m
 Multiple Level Inheritance
 In python a class can inherit from a derived class, it's called multi-level inheritance.
 
+Python Packages
+While Python modules may contain several classes, functions, variables, etc. Python packages contain several modules. In simpler terms, Package in Python is a folder that contains various modules as files and a file with the name __init__.py.
+
+It is a directory with python files and a file with the name __init__.py(this file is always blank/empty). This means evry directory inside a python path, which contains a file named __init__.py(this file is always blank/empty) will be treated as a package by python.
+A python package can have sib-packages and modules. it's a well-organised hierarchy of directory for easier access.
+
 """
