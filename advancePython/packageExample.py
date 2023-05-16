@@ -13,3 +13,6 @@ greet.sayHi()
 # importing only function from package module
 from Greeting.Person.greet import sayHi
 sayHi()
+
+import Greeting.hi
+Greeting.hi.Hi()
