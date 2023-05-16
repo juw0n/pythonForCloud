@@ -79,4 +79,9 @@ In addition you can specify if the file should be handled as binary or text mode
 "t" - Text - Default value. Text mode
 "b" - Binary - Binary mode (e.g. images)
 
+Python Directories
+Python has an inbuilt os module which provides us with many useful method/function to work with directories, sub-directories and files as well.
+
+
+
 """
