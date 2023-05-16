@@ -82,6 +82,24 @@ In addition you can specify if the file should be handled as binary or text mode
 Python Directories
 Python has an inbuilt os module which provides us with many useful method/function to work with directories, sub-directories and files as well.
 
+Python and JSON
+JSOn is a human-readale lightweight data-interchanging format. It is a syntax for storing and exchanging data. JSON is text, written with JavaScript object notation and is used in transmitting data in web applications.
+
+JSON values can only be one of the following 6 data type (string, number, object, arrays, boolean, null)
+
+Python has a built-in package call json which can be used to work with JSON data.
+
+You can convert Python objects of the following types, into JSON strings:
+
+1. dict
+2. list
+3. tuple
+4. string
+5. int
+6. float
+7. True
+8. False
+9. None
 
 
 """
