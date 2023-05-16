@@ -62,4 +62,21 @@ While Python modules may contain several classes, functions, variables, etc. Pyt
 It is a directory with python files and a file with the name __init__.py(this file is always blank/empty). This means evry directory inside a python path, which contains a file named __init__.py(this file is always blank/empty) will be treated as a package by python.
 A python package can have sib-packages and modules. it's a well-organised hierarchy of directory for easier access.
 
+File Handling in Python
+A file is a named location (object) on a disk to store information/data. A file is used to store data permanently on a no-volatile memory such as hard drive(HDD)/solid state drive(SSD) etc.
+File handling is an important part of any web application. Python has several functions for creating, reading, updating, and deleting files.
+File Handling
+The key function for working with files in Python is the open() function. The open() function takes two parameters; filename, and mode.
+Where the following mode is supported:
+r: Reda =>open an existing file for a read operation.
+w: Write => open an existing file for a write operation. If the file already contains some data then it will be overridden but if the file is not present then it creates the file as well.
+a: Append => open an existing file for append operation. It won’t override existing data.
+x - Create - Creates the specified file, returns an error if the file exists
+r+: Read and Write => To read and write data into the file. The previous data in the file will be overridden.
+w+: Write and Read => To write and read data. It will override existing data.
+a+: Append and Read => To append and read data from the file. It won’t override existing data.
+In addition you can specify if the file should be handled as binary or text mode
+"t" - Text - Default value. Text mode
+"b" - Binary - Binary mode (e.g. images)
+
 """
